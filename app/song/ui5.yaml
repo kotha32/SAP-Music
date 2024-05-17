@@ -1,0 +1,4 @@
+specVersion: "2.5"
+metadata:
+  name: com.sumanth.music.song
+type: application

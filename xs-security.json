@@ -1,0 +1,22 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.musicAdmin",
+      "description": "Admin role for music"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "Admin",
+      "description": "Admin role for music",
+      "scope-references": [
+        "$XSAPPNAME.musicAdmin"
+      ]
+    }
+  ],
+  "oauth2-configuration": {
+    "redirect-uris": ["https://*.cfapps.us10-001.hana.ondemand.com/**"]
+  }
+  
+}
