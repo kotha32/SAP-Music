@@ -103,6 +103,7 @@
           "name": "sap.fe.templates.ListReport",
           "options": {
             "settings": {
+              "initialLoad": "Enabled",
               "contextPath": "/artist",
               "variantManagement": "Page",
               "navigation": {
